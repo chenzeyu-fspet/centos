@@ -9,7 +9,7 @@ USER root
 
 # 执行操作
 RUN yum install -y openssl openssh-server
-RUN service sshd start
+# RUN service sshd start
 
 ENTRYPOINT ["/bin/bash"]
 
